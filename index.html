@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Parcel Sandbox</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <div class="weaterweater">
+        <span class="js-weather weat"></span>
+      </div>
+    <div class="js-clock">
+      <h1>00:00</h1>
+    </div>
+
+    <div class="container">
+      <div class="white-overlay">
+          <form class="js-form form">
+              <input type="text" placeholder="What is your name?" />
+            </form>
+            <h4 class="js-greetings greetings"></h4>
+          <form class="js-toDoForm">
+            <input type="text" placeholder="Add task" />
+          </form>
+        <div class="container">
+            <h2><span>Pending<span></h2>
+            <ul class="pList"></ul>
+        </div>
+        <div class="container">
+          <h2><span>Finished</span></h2>
+          <ul class="fList"></ul>
+        </div>
+      </div>
+    </div>
+    <ul class="js-toDoList"></ul>
+
+    <script src="js/background.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/greet.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
